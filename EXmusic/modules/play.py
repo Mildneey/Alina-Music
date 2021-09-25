@@ -418,7 +418,7 @@ async def m_cb(b, cb):
                 await cb.answer("Skipped")
                 await cb.message.edit((m_chat, qeue), reply_markup=r_ply(the_data))
                 await cb.message.reply_text(
-                    f"- Skipped track\n- Now Playing **{qeue[0][0]}**\n\n⚡ **__Powered by EX Music__**"
+                    f"- Skipped track\n- Now Playing **{qeue[0][0]}**\n\n⚡ **__Powered by Glitter Music__**"
                 )
 
     elif type_ == "leave":
@@ -475,7 +475,7 @@ async def play(_, message: Message):
                         message.chat.id, "✅ I joined to play a song in **voice chat!**"
                     )
                     await lel.edit(
-                        "<b>✅ **Helper userbot has successfully joined this group**\n\n**Subs Channel**: @EXProjects\n\n**Group Support**: @EXGroupSupport</b>",
+                        "<b>✅ **Helper userbot has successfully joined this group**\n\n**Subs Channel**: @storeglitter\n\n**Group Support**: @Jarak_Virtual</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -530,13 +530,13 @@ async def play(_, message: Message):
                     InlineKeyboardButton("🖱️ ᴍᴇɴᴜ", callback_data="menu"),
                     InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("⏺️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/EXProjects")
+                    InlineKeyboardButton("⏺️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Jarak_Virtual")
                 ],
             ]
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/7395642037554c52798a9.jpg"
+        thumb_name = "https://telegra.ph/file/5060c9d08770c31e0acdc.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -578,7 +578,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("🖱️ ᴍᴇɴᴜ", callback_data="menu"),
                     InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("⏺️ ᴄʜᴀɴɴ", url=f"https://t.me/EXProjects")
+                    InlineKeyboardButton("⏺️ ᴄʜᴀɴɴ", url=f"https://t.me/Jarak_Virtual")
                 ],
             ]
         )
@@ -607,7 +607,7 @@ async def play(_, message: Message):
             while j < 5:
                 toxxt += f"{emojilist[j]} [{results[j]['title']}](https://youtube.com{results[j]['url_suffix']})</b>\n"
                 toxxt += f" ├• **Duration** - {results[j]['duration']}\n"
-                toxxt += f" └• __Empowered by Alina Robot__\n\n"
+                toxxt += f" └• __Empowered by Glitter Musik__\n\n"
 
                 j += 1            
             koyboard = InlineKeyboardMarkup(
@@ -627,7 +627,7 @@ async def play(_, message: Message):
             )
      
             await message.reply_photo(
-                photo="https://telegra.ph/file/8d2d2b3c0b6bd9fc3409e.jpg",
+                photo="https://telegra.ph/file/1dcbfa0a3152d1dc8b775.jpg",
                 caption=toxxt, reply_markup=koyboard, 
             )
             await lel.delete()
@@ -662,7 +662,7 @@ async def play(_, message: Message):
                 InlineKeyboardButton("🖱 ᴍᴇɴᴜ", callback_data="menu"),
                 InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="cls"),
             ],[
-                InlineKeyboardButton("⏺️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/EXProjects")
+                InlineKeyboardButton("⏺️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Jarak_Virtual")
             ],
         ]
     )
@@ -805,7 +805,7 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton("🖱 ᴍᴇɴᴜ", callback_data="menu"),
                 InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="cls"),
             ],[
-                InlineKeyboardButton("⏺️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/EXProjects")
+                InlineKeyboardButton("⏺️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Jarak_Virtual")
             ],
         ]
     )
@@ -904,7 +904,7 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🖱️ Channel", url="https://t.me/EXProjects"),
+                InlineKeyboardButton("🖱️ Channel", url="https://t.me/storeglitter"),
                 InlineKeyboardButton("🗑️ Close", callback_data="closed")
             ],
         ]
