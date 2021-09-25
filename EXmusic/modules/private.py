@@ -57,7 +57,7 @@ async def reload(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🖱️ Group Support", url=f"https://t.me/EXSupportGroup"
+                        "🖱️ Group Support", url=f"https://t.me/Jarak_Virtual"
                     )
                 ]
             ]
@@ -78,7 +78,7 @@ async def get_uptime(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url=f"https://t.me/EXGroupSupport"
+                        "Group Support", url=f"https://t.me/Jarak_Virtual"
                     )
                 ]
             ]
